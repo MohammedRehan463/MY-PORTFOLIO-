@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehan - Web Developer & Tech Enthusiast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <nav class="nav">
+          <div class="nav-brand">
+            <span class="brand-text"> Mohammed Rehan</span>
+          </div>
+          <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="profile-image">
+            <img src="/public/IMG20250201140048.jpg" alt="Rehan Profile Picture" class="profile-img">
+            <div class="profile-ring"></div>
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Rehan</span>
+            </h1>
+            <p class="hero-subtitle">Web Developer & Tech Enthusiast</p>
+            <p class="hero-description">
+              Passionate about creating beautiful and functional web experiences. 
+              I love turning ideas into reality through clean code and innovative design.
+            </p>
+            <div class="hero-buttons">
+              <button class="btn btn-primary">
+                <i class="fas fa-download"></i>
+                Download CV
+              </button>
+              <button class="btn btn-secondary">
+                <i class="fas fa-envelope"></i>
+                Get In Touch
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <span class="scroll-text">Scroll Down</span>
+          <i class="fas fa-arrow-down scroll-arrow"></i>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+          </div>
+          
+          <div class="about-content">
+            <div class="about-text">
+              <h3 class="about-heading">Brief Introduction</h3>
+              <p class="about-description">
+                I'm a passionate web developer with a strong foundation in computer science and engineering. 
+                I love creating innovative solutions and have a keen interest in modern web technologies. 
+                My journey in tech started during my engineering studies, where I discovered my passion for 
+                coding and problem-solving.
+              </p>
+              <p class="about-description">
+                I believe in continuous learning and staying updated with the latest industry trends. 
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                projects, or sharing knowledge with the developer community.
+              </p>
+            </div>
+
+            <div class="academic-section">
+              <h3 class="academic-heading">Academic Journey</h3>
+              <div class="academic-grid">
+                <div class="academic-card" data-info="schooling">
+                  <div class="academic-icon">
+                    <i class="fas fa-school"></i>
+                  </div>
+                  <h4 class="academic-title">Schooling</h4>
+                  <p class="academic-subtitle">Secondary Education</p>
+                </div>
+
+                <div class="academic-card" data-info="intermediate">
+                  <div class="academic-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h4 class="academic-title">Intermediate</h4>
+                  <p class="academic-subtitle">Higher Secondary</p>
+                </div>
+
+                <div class="academic-card" data-info="empcet">
+                  <div class="academic-icon">
+                    <i class="fas fa-trophy"></i>
+                  </div>
+                  <h4 class="academic-title">EMPCET Rank</h4>
+                  <p class="academic-subtitle">Engineering Entrance</p>
+                </div>
+
+                <div class="academic-card" data-info="engineering">
+                  <div class="academic-icon">
+                    <i class="fas fa-cogs"></i>
+                  </div>
+                  <h4 class="academic-title">Engineering</h4>
+                  <p class="academic-subtitle">Bachelor's Degree</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Explore my latest work and creations</p>
+          </div>
+          
+          <div class="projects-grid">
+            <div class="project-card" data-project="portfolio">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg" alt="Personal Portfolio" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/portfolio" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-portfolio-website.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Personal Portfolio Website</h3>
+                <p class="project-description">
+                  A modern, responsive portfolio website built with HTML, CSS, and JavaScript. 
+                  Features smooth animations, modal popups.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-project="smart-bus-pass-system">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg" alt="Smart Bus Pass System" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/smart-bus-pass-system" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-smart-bus-pass-system.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Smart Bus Pass System</h3>
+                <p class="project-description">
+                  A smart bus pass system that allows users to purchase and manage their bus passes online, 
+                  with real-time tracking of bus locations and schedules.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">html,css,JavaScript</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-project="chalo khatta">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg" alt="Chalo Khatta" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/chalo-khatta" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-chalo-khatta.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Chalo Khatta</h3>
+                <p class="project-description">
+                  a websit that provides a platform for users to share and discover local food with out feeling akword about splitting bills
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">html</span>
+                  <span class="tech-tag">css</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="project-card" data-project="taskmanager">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg" alt="Task Manager" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/task-manager" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-task-manager.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Task Management System</h3>
+                <p class="project-description">
+                  A productivity app for managing tasks and projects with features like 
+                  drag-and-drop, priority levels, deadlines, and team collaboration.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Firebase</span>
+                  <span class="tech-tag">Material-UI</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-project="blog">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg" alt="Blog Platform" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/blog-platform" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-blog-platform.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Blog Platform</h3>
+                <p class="project-description">
+                  A modern blogging platform with rich text editor, user authentication, 
+                  comment system, and SEO optimization for content creators.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Tailwind</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-project="calculator">
+              <div class="project-image">
+                <img src="https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg" alt="Calculator App" class="project-img">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/your-username/calculator" target="_blank" class="project-link github">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://your-calculator-app.com" target="_blank" class="project-link website">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Scientific Calculator</h3>
+                <p class="project-description">
+                  A feature-rich calculator application with basic arithmetic, scientific functions, 
+                  history tracking, and keyboard support for enhanced user experience.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="projects-cta">
+            <p class="cta-text">Want to see more of my work?</p>
+            <a href="https://github.com/your-username" target="_blank" class="btn btn-primary">
+              <i class="fab fa-github"></i>
+              View All Projects on GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Find me on these platforms</p>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/mohammed-rehan-8b2a92341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link linkedin">
+              <div class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <span class="social-text">LinkedIn</span>
+            </a>
+            <a href="https://github.com/MohammedRehan463" target="_blank" class="social-link github">
+              <div class="social-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <span class="social-text">GitHub</span>
+            </a>
+            <a href="https://instagram.com/mohdrehan_144" target="_blank" class="social-link instagram">
+              <div class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <span class="social-text">Instagram</span>
+            </a>
+            <a href="mailto:mohdrehanyahoo463@gmail.com" class="social-link email">
+              <div class="social-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <span class="social-text">Email</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p class="footer-text">
+            © 2025 MohammedRehan. Built with passion and modern web technologies.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Academic Info Modals -->
+    <div id="modal-overlay" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div id="project-modal-overlay" class="modal-overlay">
+      <div class="modal-content project-modal">
+        <button class="modal-close project-modal-close">&times;</button>
+        <div id="project-modal-body"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
